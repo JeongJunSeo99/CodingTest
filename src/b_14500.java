@@ -21,11 +21,11 @@ public class b_14500 {
         }
 
         for(int i = 0; i<num1; i++){
-            st = new StringTokenizer(br.readLine(), " ");
             for(int j=0; j<num2; j++){
-                board[i][j] = Integer.parseInt(st.nextToken());
+                //여기서 테트리스를 놓을 수 있는 모든 경우의 수를 따져봄.
             }
         }
+
 
     }
 }
