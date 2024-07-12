@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class b_2606 {
+public class B_2606 {
     static boolean[] check;
     static int[][] arr;
     static int count = 0;

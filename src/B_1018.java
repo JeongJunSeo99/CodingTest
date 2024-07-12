@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class b_1018 {
+public class B_1018 {
 
 
     static int min = 64;

@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class b_17425 { //17427번과 달리 테스트 케이스 추가로 시간이 더 걸리므로 약수의 합을 한 번만 계산하고 배열에 저장해두는 방식을 사용해야 함.
+public class B_17425 { //17427번과 달리 테스트 케이스 추가로 시간이 더 걸리므로 약수의 합을 한 번만 계산하고 배열에 저장해두는 방식을 사용해야 함.
 
     public static void main(String[] args) throws IOException{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

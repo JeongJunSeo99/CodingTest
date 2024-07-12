@@ -1,7 +1,6 @@
 import java.io.*;
-import java.util.*;
 
-public class b_3085 {
+public class B_3085 {
     static int max = 1; //최대 먹을 수 있는 사탕 개수
     static int N; //보드 크기
     static char[][] board;

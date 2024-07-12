@@ -1,7 +1,6 @@
-import java.util.*;
 import java.io.*;
 
-public class b_1157{
+public class B_1157 {
     public static void main(String[] args) throws IOException{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         String str = br.readLine().toUpperCase();

@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.*;
 
-public class b_1107 {
+public class B_1107 {
     static boolean[] broken;
     public static void main(String[] args) throws IOException{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
