@@ -3,10 +3,6 @@ import java.util.*;
 
 public class B_23971 {
 
-    public static int[] aX = {1, -1, 0, 0};
-    public static int[] aY = {0, 0, 1, -1};
-    public static boolean isAble = true;
-
     public static void main(String[] args) throws IOException{
 
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -17,25 +13,6 @@ public class B_23971 {
         int M = Integer.parseInt(st.nextToken());
         int N = Integer.parseInt(st.nextToken());
 
-        int[][] arr = new int[H][W];
-        boolean[][] visited = new boolean[H][W];
-
-
-        visited[0][0] = false;
-        visited[0][1] = false;
-
-        for (int i = 0; i < H; i++) {
-            for (int j = 0; j < W; j++) {
-                if(i-1>0 && i+1 < H && j-1>0 && j+1 < W) {
-                    for(int k=0; k<4; k++) {
-                        i += aX[k];
-                        j += aY[k];
-                        if(!visited[i][j])
-                            isAble = false;
-                    }
-                }
-            }
-
-        }
+        System.out.println(((H-1)/(M+1)+1)*((W-1)/(N+1)+1));
     }
 }
